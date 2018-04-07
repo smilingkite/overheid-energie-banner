@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript">
+            var clickTag = "http://google.com/search?q=You have clicked";
+
+            function handleClick()
+            {
+                window.open( window.clickTag, '_blank' );
+            }
+        </script>
+        <meta name="ad.size" content="width=300,height=250">
+        <title></title>
+    </head>
+    <body>
+
+        <div id="banner-container" onclick="handleClick();" >
+            <!-- Dummy inhoud van de banner -->
+            <div class="square-1 square">Dummy</div>
+            <div class="square-2 square">Content</div>
+
+            <!-- Border element laten staan -->
+            <div id="border"></div>
+        </div>
+
+        <!-- css inladen -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- GSAP inladen -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+        <!-- Custom JS inladen -->
+        <script type="text/javascript" src="app.js" ></script>
+    </body>
+</html>

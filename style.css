@@ -27,16 +27,20 @@ img .begin {
   z-index: 10;
 }
 img.drie {
-  left: -300px;
+  left: 300px;
   z-index: 20;
 }
 img.vier {
-  z-index: 30;
+  z-index: 15;
 }
-img.vijf {
-  left: 300px;
-  z-index: 30;
+img.vijfa {
+  z-index: 40;
 }
+img.vijf.wolk {
+  left: -300px;
+  z-index: 40;
+}
+
 #border{
     border: 1px solid black;
     pointer-events: none;

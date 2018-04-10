@@ -10,8 +10,4 @@ tl
     ease:Power1.easeInOut, repeat:1, yoyo:true, repeatDelay:0.5}, 0.5)
   .to('.drie', 0.25, {rotation:0},);
 tl.to('.vier', 1, {autoAlpha:1, });
-tl.to('.vijf', 2, {x: -310, y: -10, autoAlpha:1, ease:Back.easeOut}, "-=0.8");
-tl
-  .to('.vijf', 0.5, {rotation:5, 
-    ease:Power1.easeInOut, repeat:1, yoyo:true, repeatDelay:0.5}, 0.5)
-  // .to('.vijf', 0.25, {rotation:0},);
+tl.to('.vijf', 2, {x: -310, y: -5, autoAlpha:1, ease:Back.easeOut}, "-=0.8");

@@ -30,6 +30,13 @@ img.drie {
   left: -300px;
   z-index: 20;
 }
+img.vier {
+  z-index: 30;
+}
+img.vijf {
+  left: 300px;
+  z-index: 30;
+}
 #border{
     border: 1px solid black;
     pointer-events: none;

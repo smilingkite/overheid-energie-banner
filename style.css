@@ -40,6 +40,17 @@ img.vijf.wolk {
   left: -300px;
   z-index: 40;
 }
+div.vijf.wolk {
+  position: absolute;
+  left: -230px;
+  line-height: 1em;
+  z-index: 40;
+  top: 32px;
+  font-family: 'Titillium Web', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #1C3451;
+  font-size: 20px;
+  width: 150px;
+}
 img.boodschap {
   z-index: 50;
 }

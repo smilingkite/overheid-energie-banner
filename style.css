@@ -40,7 +40,17 @@ img.vijf.wolk {
   left: -300px;
   z-index: 40;
 }
+img.boodschap {
+  z-index: 50;
+}
 
+img.eind {
+  z-index: 60;
+}
+.schaduw {
+  mix-blend-mode: normal;
+  z-index: 70;
+}
 #border{
     border: 1px solid black;
     pointer-events: none;

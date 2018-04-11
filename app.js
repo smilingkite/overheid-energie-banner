@@ -19,5 +19,6 @@ tl.to('.moves',3, {autoAlpha:1, y:-47});
 tl.to('.groen.moves',2, {autoAlpha:1, y:-90}, "-=1.5");
 tl.to('.tekst',5, {zIndex:70}, "-=5");
 tl.to('.eind',3, {autoAlpha:1});
+tl.to('.big', 2, {scaleX:1.3, scaleY:1.3, y: -65}, "-=4")
 
 

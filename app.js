@@ -14,9 +14,10 @@ tl
   .to('.vijf', 0.5, {rotation:5, 
     ease:Power1.easeInOut, repeat:1, yoyo:true, repeatDelay:0.5}, "-=1")
   .to('.vijf', 0.25, {rotation:0}, "-=0.3");
-tl.to('.boodschap',3, {autoAlpha:1});
+tl.to('.boodschap',1, {autoAlpha:1});
 tl.to('.moves',3, {autoAlpha:1, y:-47});
-tl.to('.groen.moves',2, {autoAlpha:1, y:-90}, "-=-1.5");
+tl.to('.groen.moves',2, {autoAlpha:1, y:-90}, "-=1.5");
+tl.to('.tekst',5, {zIndex:70}, "-=5");
 tl.to('.eind',3, {autoAlpha:1});
 
 

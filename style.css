@@ -12,7 +12,7 @@
     height: 250px;
     overflow:hidden;
     background-color: white;
-    background: #e6ffe6 url(./plaatjes/achter-groen.png);
+    /* background: #e6ffe6 url(./plaatjes/achter-groen.png); */
     position:relative;
 }
 

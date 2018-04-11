@@ -43,6 +43,12 @@ img.vijf.wolk {
 img.boodschap {
   z-index: 50;
 }
+img.groen {
+  top: 85px;
+}
+img.boodschap.button {
+  left: -3px;
+}
 
 img.eind {
   z-index: 60;
